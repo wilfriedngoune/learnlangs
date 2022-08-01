@@ -1,26 +1,25 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <section class="app-container">
+    <AddWord />
+  </section>
+  <br />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AddWord from './components/AddWord.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    AddWord,
+  },
+  
+
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
+
+
 </style>

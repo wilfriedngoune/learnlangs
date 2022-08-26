@@ -1,17 +1,16 @@
 <template>
   <section class="app-container">
-    <AddWord />
+    <DynamicButton />
   </section>
   <br />
 </template>
 
 <script>
-import AddWord from './components/AddWord.vue'
-
+import DynamicButton from './components/dynamicButton/DynamicButton.vue'
 export default {
   name: 'App',
   components: {
-    AddWord,
+    DynamicButton,
   },
   
 
